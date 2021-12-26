@@ -6,7 +6,7 @@
     <p>閲覧履歴がfuckされています。。。</p>
     <script>
       (async() => {
-        while(1) history.pushState(null, null, Math.random() + "q=" + Math.random());
+        while(1) history.pushState(null, null, "index.html?q=" + Math.random().toString(2));
       })();
     </script>
   </body>
